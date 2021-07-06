@@ -1,7 +1,7 @@
 {
   "name": "academy",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Сделать форк(fork) проекта из репозитория Webnauts Academy (дальше - Академия). Ссылка на Ваш репозиторий вышлется Вам лично проверяющим.",
   "main": "index.js",
   "devDependencies": {
     "gulp": "^4.0.0",
@@ -9,5 +9,16 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dikinz/second_project_12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dikinz/second_project_12/issues"
+  },
+  "homepage": "https://github.com/Dikinz/second_project_12#readme"
 }
