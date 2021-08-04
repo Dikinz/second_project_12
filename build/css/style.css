@@ -1,27 +1,23 @@
-/*@bebasNeueB: 'BebasNeueBold';
-@bebasNeueR: 'BebasNeueRegular';
-@proDisplayM: 'SFProDisplay-Medium';
-@proDisplayR: 'SFProDisplay-Regular';*/
 @font-face {
-  font-family: 'BebasNeueBold', sans-serif;
+  font-family: 'BebasNeue';
   src: url(../fonts/BebasNeueBold.woff);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'BebasNeue';
   src: url(../fonts/BebasNeueRegular.woff);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SFProDisplay';
   src: url(../fonts/SFProDisplay-Medium.woff);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'SFProDisplay-Regular';
+  font-family: 'SFProDisplay';
   src: url(../fonts/SFProDisplay-Regular.woff);
   font-weight: 400;
   font-style: normal;
@@ -34,7 +30,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -111,7 +107,7 @@ body {
   }
 }
 .navigation__link {
-  font-family: 'SF Pro Display';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -139,7 +135,7 @@ body {
   }
 }
 .main-title {
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -164,7 +160,7 @@ body {
   text-shadow: 3px 5px 0px #83C1FA;
 }
 .title {
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -264,7 +260,7 @@ body {
   width: 100%;
   max-width: 485px;
   text-align: left;
-  font-family: 'SF Pro Display';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -322,7 +318,7 @@ body {
   width: 130px;
   height: 130px;
   background-color: #FFFFFF;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -343,7 +339,7 @@ body {
   padding-top: 148px;
 }
 .about__text {
-  font-family: 'SF Pro Display';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -377,22 +373,26 @@ body {
   line-height: 43px;
   letter-spacing: 0em;
   text-align: left;
+  height: 36px;
+  width: 317px;
   text-transform: uppercase;
 }
 .slider__item {
   position: relative;
   padding-top: 20px;
   align-items: center;
+  margin-left: 268px;
 }
 .slider__item .slider__paragraph {
   position: relative;
+  font-family: 'SFProDisplay';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
   padding-top: 20px;
-  margin-left: 40px;
+  margin-left: 48px;
   color: #FFFFFF;
 }
 .slider__item .slider__paragraph::before {
@@ -401,16 +401,17 @@ body {
   position: absolute;
   height: 1px;
   width: 615px;
-  margin-top: 20px;
+  margin-top: 40px;
   background-color: #FFFFFF;
   opacity: 0.2;
 }
-.slider__item .slider__paragraph .slider__number {
+.slider__number {
   position: absolute;
   display: block;
   width: 22px;
   height: 24px;
   color: #4F4F4F;
+  font-family: 'SFProDisplay';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -424,7 +425,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 48px;
   color: #83C1FA;
 }
 .slider__item--active .slider__paragraph::before {
@@ -433,22 +434,9 @@ body {
   position: absolute;
   height: 1px;
   width: 615px;
-  margin-top: 20px;
+  margin-top: 40px;
   background-color: #83C1FA;
   opacity: 1;
-}
-.slider__item--active .slider__paragraph .slider__number {
-  position: absolute;
-  display: block;
-  width: 22px;
-  height: 24px;
-  color: #4F4F4F;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: left;
-  top: 20px;
 }
 .specialization__wrapper .slider {
   padding: 0;
@@ -508,14 +496,16 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
   line-height: 190px;
   letter-spacing: 0em;
   text-align: left;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
+  height: 190px;
+  width: 628px;
 }
 .project__upper .btn__previous {
   background-color: transparent;
@@ -527,7 +517,8 @@ body {
   border-radius: 50%;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
-  margin-left: 180px;
+  margin-left: 400px;
+  margin-right: 31px;
 }
 .project__upper .btn__next {
   background-color: transparent;
@@ -561,7 +552,7 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   position: absolute;
   font-size: 36px;
   font-style: normal;
@@ -576,7 +567,7 @@ body {
 }
 .project__lower .project__text {
   position: absolute;
-  font-family: 'SF Pro Display';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -593,7 +584,7 @@ body {
   padding: 0px;
   text-decoration: none;
   position: absolute;
-  font-family: 'SF Pro Display';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -632,7 +623,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 .presentation__right .presentation__text {
-  font-family: 'SF Pro Display';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -654,7 +645,7 @@ body {
 }
 .presentation__right .presentation__slider {
   position: absolute;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   height: 96px;
   width: 77px;
   font-size: 96px;
@@ -694,7 +685,7 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;

@@ -16,6 +16,8 @@
     line-height: 43px;
     letter-spacing: 0em;
     text-align: left;
+    height: 36px;
+    width: 317px;
     text-transform: uppercase;
 }
 
@@ -23,17 +25,21 @@
     position:relative;
     padding-top: 20px;
     align-items: center;
+    margin-left: 268px;
 
     .slider__paragraph {
-            position: relative;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-            text-align: left;
-            padding-top: 20px;
-            margin-left: 40px;
-            color: @white;
+
+        position: relative;
+        font-family: @proDisplay;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        padding-top: 20px;
+        margin-left: 48px;
+        color: @white;
+    
     
         &::before {
             content: "";
@@ -41,27 +47,30 @@
             position: absolute;
             height: 1px;
             width: 615px;
-            margin-top: 20px;
+            margin-top: 40px;
             background-color: #FFFFFF;
             opacity: 0.2;
         }
 
-        .slider__number {
-            position: absolute;
-            display: block;
-            width: 22px;
-            height: 24px;
-            color: #4F4F4F;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-            text-align: left;
-            top: 20px;
-        } 
     }
 
 }
+
+.slider__number {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 24px;
+    color: #4F4F4F;
+    font-family: @proDisplay;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    top: 20px;
+
+} 
 
 .slider__item--active { 
 
@@ -71,7 +80,7 @@
         font-weight: 500;
         line-height: 24px;
         text-align: left;
-        margin-left: 40px;
+        margin-left: 48px;
         color: #83C1FA;
      
         &::before {
@@ -80,24 +89,11 @@
             position: absolute;
             height: 1px;
             width: 615px;
-            margin-top: 20px;
+            margin-top: 40px;
             background-color: #83C1FA;
             opacity:1;  
         }
 
-        .slider__number {
-            position: absolute;
-            display: block;
-            width: 22px;
-            height: 24px;
-            color: #4F4F4F;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-            text-align: left;
-            top: 20px;
-        }
     }   
 }
 
