@@ -622,7 +622,10 @@ body {
   border-bottom: 1px solid #FFFFFF;
   grid-template-columns: 1fr 1fr;
 }
-.presentation__right .presentation__text {
+.presentation__right {
+  width: 100%;
+}
+.presentation__text {
   font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
@@ -633,7 +636,7 @@ body {
   color: #FFFFFF;
   padding-top: 40px;
 }
-.presentation__right .presentation__logo {
+.presentation__logo {
   position: relative;
   display: flex;
   align-items: center;
@@ -643,7 +646,7 @@ body {
   height: 113px;
   width: 282px;
 }
-.presentation__right .presentation__slider {
+.presentation__slider {
   position: absolute;
   font-family: 'BebasNeue';
   height: 96px;
@@ -657,7 +660,7 @@ body {
   right: 0px;
   top: 48px;
 }
-.presentation__right .presentation__prev {
+.presentation__prev {
   background-color: transparent;
   border: none;
   padding: 0;
@@ -669,7 +672,7 @@ body {
   color: #FFFFFF;
   margin-top: 64px;
 }
-.presentation__right .presentation__next {
+.presentation__next {
   background-color: transparent;
   border: none;
   padding: 0;
@@ -681,7 +684,10 @@ body {
   color: #FFFFFF;
   margin-left: 31px;
 }
-.presentation__left .presentation__title {
+.presentation__left {
+  width: 100%;
+}
+.presentation__title {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -702,24 +708,30 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex-box;
-  vertical-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: left;
   padding-top: 40px;
   padding-bottom: 220px;
   border-bottom: 1px solid #FFFFFF;
+}
+.review__upper {
+  /*display: flex;
+    align-self: start;
+    height: 36px;
+    width: 214px;*/
 }
 .review_title {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-family: 'BebasNeue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 43px;
   letter-spacing: 0em;
   text-align: left;
-  height: 36px;
-  width: 214px;
 }
 .gallery {
   padding: 0;
@@ -728,8 +740,37 @@ body {
   text-decoration: none;
   position: relative;
   display: flex;
+  align-items: baseline;
+  margin-top: 83px;
 }
 .gallery__item {
-  padding-left: 30px;
   padding-right: 30px;
+}
+.gallery__title {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'SFProDisplay';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 24px;
+  width: 98px;
+  color: #FFFFFF;
+}
+.gallery__text {
+  font-family: 'SFProDisplay';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  height: 17px;
+  width: 196px;
+  left: 200px;
 }
