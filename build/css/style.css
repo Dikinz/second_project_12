@@ -649,14 +649,13 @@ body {
 .presentation__slider {
   position: absolute;
   font-family: 'BebasNeue';
-  height: 96px;
-  width: 77px;
   font-size: 96px;
   font-style: normal;
   font-weight: 700;
   line-height: 96px;
   letter-spacing: 0em;
   text-align: left;
+  color: #4F4F4F;
   right: 0px;
   top: 48px;
 }
@@ -773,4 +772,180 @@ body {
   height: 17px;
   width: 196px;
   left: 200px;
+}
+.footer__wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  padding-top: 40px;
+  height: 594px;
+}
+.footer__consult {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer__title {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  position: relative;
+  font-family: 'BebasNeue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 36px;
+  width: 174px;
+}
+.footer__dscr {
+  position: absolute;
+  font-family: 'SFProDisplay';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 60px;
+  width: 371px;
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-top: 35px;
+}
+.contacts {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 86px;
+  width: 361px;
+  margin-left: 570px;
+  margin-bottom: 20px;
+}
+.contacts__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 86px;
+  width: 361px;
+}
+.contacts__mail {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'BebasNeue';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 174px;
+  height: 56px;
+  color: #83C1FA;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contacts__facebook {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'BebasNeue';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 174px;
+  height: 56px;
+  color: #FFFFFF;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contacts__telegram {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'BebasNeue';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 174px;
+  height: 56px;
+  color: #FFFFFF;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.info {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 380px;
+}
+.info__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.info__policy {
+  font-family: 'SFProDisplay';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #A0A0A0;
+  height: 14px;
+  width: 175px;
+  opacity: 0.54;
+}
+.info__policy::after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 1px;
+  width: 175px;
+  background-color: #C4C4C4;
+  opacity: 0.5;
+  margin-top: 7px;
+}
+.info__privacy {
+  font-family: 'SFProDisplay';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #A0A0A0;
+  height: 14px;
+  width: 151px;
+  opacity: 0.54;
 }
