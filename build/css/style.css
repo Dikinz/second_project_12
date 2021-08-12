@@ -496,6 +496,7 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  position: relative;
   font-family: 'BebasNeue';
   font-size: 190px;
   font-style: normal;
@@ -506,6 +507,26 @@ body {
   text-transform: uppercase;
   height: 190px;
   width: 628px;
+  z-index: 1;
+}
+.project__upper .decorblue__title {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'BebasNeue';
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  height: 190px;
+  width: 628px;
+  color: #83C1FA;
+  margin-top: 6px;
+  margin-left: 6px;
 }
 .project__upper .btn__previous {
   background-color: transparent;
@@ -560,6 +581,7 @@ body {
   line-height: 43px;
   letter-spacing: 0em;
   text-align: left;
+  color: #FFFFFF;
   width: 164px;
   height: 36px;
   top: 0px;
@@ -574,6 +596,7 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  color: #FFFFFF;
   height: 408px;
   width: 245px;
   margin-top: 64px;
@@ -591,10 +614,19 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  color: #FFFFFF;
   width: 92px;
   height: 24px;
   margin-left: 385px;
   margin-top: 552px;
+}
+.project__lower .project__link::after {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 90px;
+  background-color: #C4C4C4;
+  opacity: 0.4;
 }
 .project__lower .project__icon {
   position: absolute;
@@ -605,9 +637,46 @@ body {
 }
 .project__lower .project__slider {
   position: absolute;
-  height: 671px;
-  width: 615px;
   margin-left: 600px;
+  box-sizing: border-box;
+  border: 10px solid #000000;
+  border-radius: 28px;
+}
+.project__counter {
+  position: relative;
+  font-family: 'BebasNeue';
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 144px;
+  width: 58px;
+  color: #828282;
+}
+.project__counter::after {
+  display: block;
+  content: '';
+  height: 0px;
+  width: 190px;
+  border: 1px solid #828282;
+  transform: rotate(-45deg);
+}
+.project__counter--end {
+  position: absolute;
+  font-family: 'BebasNeue';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 96px;
+  width: 20px;
+  color: #828282;
+  margin-top: 160px;
+  margin-left: 125px;
 }
 .presentation__wrapper {
   width: 100%;
